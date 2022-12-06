@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def hello_world():
-    return "Welcome to Javaneh Code Academy 2022"
+    return "Welcome to Javaneh Code Academy 2022 - Deployed By Github Actions"
 
 @app.route('/profile', methods=['GET'])
 def get_profile():
